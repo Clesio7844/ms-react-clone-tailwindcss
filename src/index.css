@@ -8,6 +8,11 @@
   width: 150px;
 }
 
+.section-2 img {
+  max-width: 100%;
+  width: 500px;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

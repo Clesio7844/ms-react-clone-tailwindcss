@@ -9,9 +9,11 @@ const ChooseYour = () => {
         const { id, text, image } = card;
 
         return (
-          <article key={id}>
+          <article key={id} className='flex items-center px-6 py-2'>
             <img src={image} alt='card' />
-            <p>{text}</p>
+            <p className='mx-3 font-semibold cursor-pointer hover:underline'>
+              {text}
+            </p>
           </article>
         );
       })}
