@@ -8,14 +8,16 @@ const Hero = () => {
       <div>
         <img src={showcaseHero} alt='hero' />
       </div>
-      <div>
-        <p>Countdown Sale</p>
-        <h1>Bundle and save up to $430</h1>
+      <div className='bg-gray-200 text-center p-10 '>
+        <p className='bg-white inline-block py-1 px-5 text-red-700 font-bold mb-3'>
+          Countdown Sale
+        </p>
+        <h1 className='font-bold text-2xl mb-2'>Bundle and save up to $430</h1>
         <p>
           Complete your Surface Pro 7 with choice of select Typer Cover and free
           sleeve
         </p>
-        <button>
+        <button className='bg-red-600 text-white py-2 px-4 mt-3 hover:bg-red-800 '>
           Show Now <FaChevronRight />
         </button>
       </div>
