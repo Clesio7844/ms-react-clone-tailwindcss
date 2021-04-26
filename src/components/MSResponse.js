@@ -2,7 +2,7 @@ import React from 'react';
 
 const MSResponse = () => {
   return (
-    <div className='bg-gray-200 text-center p-6'>
+    <div className='bg-gray-200 text-center p-6 mb-10 xl:mx-20'>
       <h2 className='font-semibold text-2xl mb-2 '>
         Microsoft's response to COVID-19
       </h2>

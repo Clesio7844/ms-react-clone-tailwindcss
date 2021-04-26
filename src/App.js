@@ -7,6 +7,8 @@ import GamePass from './components/GamePass';
 import Section3 from './components/Section3';
 import MSResponse from './components/MSResponse';
 import ThisHoliday from './components/ThisHoliday';
+import Social from './components/Social';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <Section3 />
       <MSResponse />
       <ThisHoliday />
+      <Social />
+      <Footer />
     </>
   );
 }

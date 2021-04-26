@@ -4,16 +4,16 @@ import { FaChevronRight } from 'react-icons/fa';
 
 const Hero = () => {
   return (
-    <section>
+    <section className='hero xl:mx-20'>
       <div>
-        <img src={showcaseHero} alt='hero' />
+        <img className='hero-img' src={showcaseHero} alt='hero' />
       </div>
-      <div className='bg-gray-200 text-center p-10 '>
+      <div className='overlay bg-gray-200 text-center p-10 sm:bg-transparent sm: text-left'>
         <p className='bg-white inline-block py-1 px-5 text-red-700 font-bold mb-3'>
           Countdown Sale
         </p>
         <h1 className='font-bold text-2xl mb-2'>Bundle and save up to $430</h1>
-        <p>
+        <p className='text'>
           Complete your Surface Pro 7 with choice of select Typer Cover and free
           sleeve
         </p>

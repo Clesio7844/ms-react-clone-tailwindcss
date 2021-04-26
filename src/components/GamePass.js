@@ -3,13 +3,13 @@ import GamepassPictuer from '../images/game_pass_539.png';
 
 const GamePass = () => {
   return (
-    <sectivon>
+    <section className='hero gamepass-hero xl:mx-20'>
       <div>
-        <img src={GamepassPictuer} alt='xbox gamepass' />
+        <img className='hero-img' src={GamepassPictuer} alt='xbox gamepass' />
       </div>
-      <div className='bg-gray-800 text-center p-10 text-white'>
+      <div className='overlay bg-gray-800 text-center p-10 text-white sm:bg-transparent sm: text-left'>
         <h2 className='font-semibold text-xl md-2'>Xbox Game Pass Ultimate</h2>
-        <p className='mb-2'>
+        <p className='mb-4 text'>
           Get your first 3 months of xbox Game Pass Ulimate membership for $1.
           Now includes EA Play. New subscribers
         </p>
@@ -18,7 +18,7 @@ const GamePass = () => {
         </button>
         <button>Compare all plans</button>
       </div>
-    </sectivon>
+    </section>
   );
 };
 
